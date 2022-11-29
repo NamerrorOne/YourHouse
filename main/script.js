@@ -1,0 +1,1 @@
+var seltheme = document.getElementById('selcolor').value;

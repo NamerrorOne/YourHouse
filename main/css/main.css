@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+    cursor: default;
+}
+
+.container {
+    width: 1920px;
+    height: 1080px;
+    background-image: url(../img/picture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.block1 {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 72px;
+}
+
+.YourHouse {
+    font-weight: 900;
+    font-size: 36px;
+    color: white;
+    display: flex;
+    font-family: 'Inter';
+}
+
+.photocontacts {
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    font-weight: 400;
+    align-items: center;
+    color: white;
+    margin-left: 189px;
+    margin-right: 219px;
+    width: 962px;
+}
+
+.number {
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    margin-right: 46px;
+}
+
+.text1 {
+    margin-left: 21px;
+}
+
+.lines {
+  margin-left: 29px;
+}
+
+.line {
+    background-color: white;
+    width: 30px;
+    height: 3px;
+    margin-top: 9px;
+}
+
+.bottomtext1 {
+    margin-top: 221px;
+    margin-left: 80px;
+}
+
+.Provodite {
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+}
+
+.arenda {
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 32px;
+    color: white;
+}
+.btn1 {
+    margin-top: 50px;
+    width: 334px;
+    height: 98px;
+    background: rgba(255, 215, 4, 0.98);
+    border-radius: 10px;
+    color: #343131;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5s;
+
+}
+
+.btn1:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.link1 {
+    text-decoration: none;
+    color: white;
+}
+
+.icons1 {
+    margin-bottom: 142px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    margin-left: 16px;
+    margin-top: 141px;
+    
+}
+
+
+.iconicon {
+    width: 56px;
+    height: 56px;
+}
+
+a {
+    text-decoration: none;
+    position: relative;
+    
+}
+
+a.link1:hover {
+  text-decoration: underline;
+}
+
+.iconicon:hover {
+    transform: scale(1.1);
+}
+
+.container2 {
+    width: 1920px;
+    height: 1090px;
+    background: rgba(245, 245, 245, 0.96);
+    position: relative;
+   
+}
+
+.YNAS {
+    padding-top: 60px;
+    font-size: 55px;
+    font-weight: 700;
+    color: #292929;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cards1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 46px;
+}
+
+.card1 {
+    width: 560px;
+    height: 834px;
+    background-color: white;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+}
+
+.picture {
+   margin-top: 45px;
+   margin-right: 25px;
+   margin-left: 25px;
+}
+
+.text {
+    font-size: 32px;
+    font-weight: 700;
+    color:#686868;
+    margin-top: 69px;
+    text-align: center;
+}
+
+.card1:hover {
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+}
+
+.container3 {
+    width: 1920px;
+    height: 1080px;
+    background: rgba(245, 245, 245, 0.96);
+}
+
+.gostevie {
+    font-size: 55px;
+    font-weight: 700;
+    color: #292929;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.cards2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 82px;
+}
+
+
+.btn2 {
+    background-color: #F4CC08CC;
+    width: 297px;
+    height: 81px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: #000000;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    transition-duration: 0.3s;
+}
+
+.btn2:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+.image1:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+.image1 {
+    transition-duration: 0.3s;
+}
+
+.container4 {
+    width: 1920px;
+    height: 1080px;
+    background: rgba(245, 245, 245, 0.96);
+}
+
+.box4 {
+    margin: 0 114px;
+}
+
+.doma {
+    padding-top: 61px;
+    font-weight: 700;
+    font-size: 55px;
+    color: #292929;
+}
+
+.Vibirite {
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+}
+
+.images2 {
+    margin-top: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card2 {
+    width: 405px;
+    height: 586px;
+    border-radius: 40px;
+    background-size: cover;
+    position: relative;
+    transition-duration: 0.3s;
+}
+
+.Rect {
+    width: 196px;
+    height: 49px;
+    border-radius: 15px;
+    background-color: #F4F4F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    top: 21px;
+    left: 13px;
+}
+
+.text2 {
+    position: absolute;
+}
+
+.words {
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+    bottom: 60px;
+    left: 30px;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    bottom: 19px;
+    left: 218px;
+}
+
+.hizhina {
+    background-image: url(../img/hizhina.png);
+}
+
+.sredniy {
+    background-image: url(../img/sayna.png);
+}
+
+.comfort {
+    background-image: url(../img/comfort\ \(1\).png);
+}
+
+.vip {
+    background-image: url(../img/vip.png);
+}
+
+.card2:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+.btn3 {
+    width: 180px;
+    height: 70px;
+    border: 3px solid #CC8146;
+    font-weight: 400;
+    font-size: 23px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 31px;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 0.4s;
+}
+
+.btn3:hover {
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}  
+
+.container5{
+    background-image: url(../img/ZASTAVKA.png);
+    width: 1920px;
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vvod {
+    width: 420px;
+    height: 70px;
+    border: 2px solid #686868;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 22px;
+    color: #828282;
+    margin-left: 50px;
+    margin-top: 35px;
+}
+
+.checkbox {
+    padding: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.window {
+    width: 800px;
+    height: 820px;
+    background-color: #FFFFFFF5;
+    border-radius: 30px;
+}
+
+.skidka {
+    margin-top: 42px;
+    font-weight: 700;
+    font-size: 45px;
+    color: black;
+    margin-left: 39px;
+    
+}
+
+span {
+    color: #F2D236;
+}
+
+.otpravte {
+    margin-top: 35px;
+    font-weight: 400;
+    font-size: 28px;
+    color: #000000;
+    margin-left: 39px;
+}
+
+.btn4 {
+    background-color: #F2D236;
+    width: 359px;
+    height: 84px;
+    font-weight: 700;
+    font-size: 26px;
+    color: #000000;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    transition-duration: 0.4s;
+}
+
+.btn4:hover {
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+.check {
+    font-weight: 400;
+    font-size: 20px;
+}
